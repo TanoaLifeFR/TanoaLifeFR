@@ -65407,7 +65407,7 @@ class Mission
 		class Item313
 		{
 			position[]={6981.3975,0,8078.3467};
-			name="oil_2_1";
+			name="oil_1";
 			text="Plateforme Pétrolière";
 			type="mil_triangle";
 			colorName="ColorBrown";
