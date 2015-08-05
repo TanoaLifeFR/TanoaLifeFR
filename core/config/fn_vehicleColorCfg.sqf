@@ -71,8 +71,8 @@ switch (_vehicle) do
 			["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base08_co.paa","civ"],
 			["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base09_co.paa","civ"],
 			["textures\Gendarme\hatchback_gendarme.jpg","cop"],
-			["textures\Civil\hatchback_polygon.jpg","cop"],
-			["textures\Civil\hatchback_polygon.jpg","civ"],
+			["textures\Civil\hb_shark.paa","cop"],
+			["textures\Civil\hb_shark.paa","civ"],
 			["textures\Civil\hatchback_asiimov.jpg","civ"]
 		];
 	};
