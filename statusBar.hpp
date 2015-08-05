@@ -1,4 +1,4 @@
-﻿#define ST_RIGHT 0x01
+#define ST_RIGHT 0x01
 
 class osefStatusBar {
 	idd = -1;
@@ -24,7 +24,7 @@ class osefStatusBar {
 			size = 0.03;
 			type = 13;
 			style = 1;
-			text="TanoaLife | La barre d'information se charge ... Merci de votre patience.";
+			text="TanoaLife | La barre d'information se charge... Merci de votre patience.";
 			class Attributes {
 				align="right";
 				color = "#C2F732";
