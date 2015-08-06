@@ -1,4 +1,4 @@
-/*
+﻿/*
 	File: fn_gather.sqf
 	Author: Bryan "Tonic" Boardwine
 	
@@ -14,7 +14,7 @@ _zone = "";
 _gather = "";
 // if(life_action_gathering) exitWith {}; //Action is in use, exit to prevent spamming.
 
-//Find out what zone we're near
+//
 {
 	if(player distance (getMarkerPos _x) < 75) exitWith {_zone = _x;};
 } foreach _resourceZones;
@@ -41,7 +41,7 @@ if(_zone == "") then {
 		default {_gather = "";};
 	};
 } else {
-	//Get the resource that will be gathered from the zone name...
+	//Zone de ramasage
 	switch(true) do {
 		case (_zone in ["apple_1","apple_2","apple_3","apple_4"]): {_gather = "apple"; _val = 3;};
 		case (_zone in ["turtle_1","turtle_2","turtle_3"]): {_gather = "turtle"; _val = 1;};
@@ -63,7 +63,7 @@ titleText[format["Récolte %1...",_itemName],"PLAIN"];
 
 while {life_carryWeight < life_maxWeight} do
 {
-	//gather check??
+	//Sa recolte??
 	if (!(alive player)) exitWith {};
 	if(vehicle player != player) exitWith {};
 	if (speed player > 1) exitWith { titleText["Récolte annulée. Vous devez rester immobile pendant la récolte.","PLAIN"]; };
@@ -74,12 +74,10 @@ while {life_carryWeight < life_maxWeight} do
 	if(!(_diff > 0)) exitWith { titleText [format["Récolte terminé. Vous n'avez plus de place pour stocker plus de %1.", _itemName],"PLAIN"]; };
 
 	if(_gather == "sand" || _gather == "salt" || _gather == "rock" || _gather == "oilu" || _gather == "charbon" || _gather == "ironore" || _gather == "plutoniumore" || _gather == "argent" || _gather == "diamond" || _gather == "copperore") then {
-		//[[player, "mining",10],"life_fnc_playSound",true,false] spawn life_fnc_MP;
 		player say3D "PickaxeUseSound";
 	}
 	else
 	{
-		//[[player, "bag",10],"life_fnc_playSound",true,false] spawn life_fnc_MP;
 		player say3D "bag";
 	};
 	
