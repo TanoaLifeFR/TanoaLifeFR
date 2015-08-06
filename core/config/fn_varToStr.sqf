@@ -83,6 +83,7 @@ switch (_var) do
 	case "life_inv_plutonium_r": {"Lingot de Plutonium"};
 	case "life_inv_feuilletabac": {"Feuille(s) de Tabac"};
 	case "life_inv_paquetcigarette": {"Paquet(s) de Cigarette"};
+	case "life_inv_fencecutters": {"Pince Coupante"};
 	
 	//License Block
 	case "license_adac_car": {"Permis de Conduire AP"};

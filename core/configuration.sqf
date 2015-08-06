@@ -199,7 +199,8 @@ life_inv_items =
 	"life_inv_plutoniumore",
 	"life_inv_plutonium_r",
 	"life_inv_feuilletabac",
-	"life_inv_paquetcigarette"
+	"life_inv_paquetcigarette",
+	"life_inv_fencecutters"
 ];
 
 //Setup variable inv vars.
@@ -310,7 +311,8 @@ sell_array =
 	["flecheg",100],
 	["plutonium_r",100],
 	["paquetcigarette",100],
-	["fleched",100]
+	["fleched",100],
+	["fence_cut",10000]
 ];
 __CONST__(sell_array,sell_array);
 
@@ -351,7 +353,8 @@ buy_array =
 	["lightg",100],	
 	["lighty",100],
 	["flecheg",200],
-	["fleched",200]
+	["fleched",200],
+	["fence_cut",20000]
 ];
 __CONST__(buy_array,buy_array);
 

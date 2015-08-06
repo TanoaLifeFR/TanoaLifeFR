@@ -87,6 +87,7 @@ switch (_mode) do
 			case "plutonium_r": {"life_inv_plutonium_r"};
 			case "feuilletabac": {"life_inv_feuilletabac"};
 			case "paquetcigarette": {"life_inv_paquetcigarette"};
+			case "fence_cut": {"life_inv_fencecutters"};
 		};
 	};
 	
@@ -167,6 +168,7 @@ switch (_mode) do
 			case "life_inv_plutonium_r": {"plutonium_r"};
 			case "life_inv_feuilletabac": {"feuilletabac"};
 			case "life_inv_paquetcigarette": {"paquetcigarette"};
+			case "life_inv_fencecutters": {"fence_cut"};
 		};
 	};
 };

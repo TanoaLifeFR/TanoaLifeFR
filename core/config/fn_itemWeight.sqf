@@ -76,5 +76,6 @@ switch (_item) do
 	case "plutonium_r": {5};
 	case "feuilletabac": {3};
 	case "paquetcigarette": {2};
+	case "fence_cut": {2};
 	default {1};
 };
