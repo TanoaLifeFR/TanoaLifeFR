@@ -66,4 +66,5 @@ switch (_var) do
 	case "life_inv_argentr": {("icons\items\argentr.paa")};
 	case "life_inv_mauer": {("icons\items\mauer.paa")};
 	case "life_inv_zipties": {("icons\items\zipties.paa")};
+	case "life_inv_fencecutters": {("icons\items\pince.paa")};
 };
