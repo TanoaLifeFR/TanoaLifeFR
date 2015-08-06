@@ -2941,7 +2941,7 @@ class Mission
 					vehicle="o_soldier_unarmed_f";
 					leader=1;
 					skill=0.60000002;
-					init="this addAction[""Vendeur de Vêtements Rebelles"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_rebel && playerSide == civilian']; this allowDamage false; this enableSimulation false;";
+					init="this addAction[""<t color='#0199FE'>Vetement Rebelle</t>"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_rebel && playerSide == civilian']; this addAction[""<t color='#FEB201'>Vetement Rebelle 2</t>"",life_fnc_clothingMenu,""reb2"",0,false,false,"""",' license_civ_rebel2 && playerSide == civilian']; this addAction[""<t color='#FE0101'>Vetement Rebelle 3</t>"",life_fnc_clothingMenu,""reb3"",0,false,false,"""",' license_civ_rebel3 && playerSide == civilian']; this addAction[""<t color='#0112FE'>Vetement Rebelle 4</t>"",life_fnc_clothingMenu,""reb4"",0,false,false,"""",' license_civ_rebel4 && playerSide == civilian']; this enableSimulation false; this allowDamage false;";
 				};
 			};
 		};
