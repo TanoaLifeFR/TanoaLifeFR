@@ -26,7 +26,7 @@ switch (life_veh_shop select 0) do
 	case "cop_air": {_ret = license_cop_air;};
 	case "cop_airhq": {_ret = license_cop_air;};
 	case "civ_truck":	{_ret = licence_civ_truck;};
-	case "gt":	{_ret = license_civ_gt;}; // Global Trust
+	case "gt":	{_ret = licence_civ_gt;}; // Global Trust
 	case "reb_car": {_ret = license_civ_rebel;};
 	case "cop_car": {_ret = true;};
 	case "car_merc": {_ret = license_adac_car;};
