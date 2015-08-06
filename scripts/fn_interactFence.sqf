@@ -11,7 +11,7 @@ switch (playerSide) do
     case west:
     {
         hint "Vous avez reparé le grillage."; //prints message
-        _nObject = nearestObject [player, "Land_CncWall1_F"];
+        _nObject = nearestObject [player, "Land_Mil_WiredFence_F"];
         _nObject setDamage 0; // repairs the fence
     };
     case civilian:
@@ -21,7 +21,7 @@ switch (playerSide) do
         {
             life_inv_fencecutters = life_inv_fencecutters - 1; //uses the cutters
             hint "Vous avez coupé le grillage !"; //prints message
-            _nObject = nearestObject [player, "Land_CncWall1_F"];
+            _nObject = nearestObject [player, "Land_Mil_WiredFence_F"];
             _nObject setDamage 1;; // destroys the fence
         };
     };
