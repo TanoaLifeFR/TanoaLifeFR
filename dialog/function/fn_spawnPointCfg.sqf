@@ -77,7 +77,7 @@ switch (_side) do
 		
 		if(licence_civ_LSA) then
 		{
-            _return pushBack ["gt","Villa LSA","\a3\ui_f\data\map\MapControl\watertower_ca.paa"] ;
+            _return pushBack ["spawn_LSA","Villa LSA","\a3\ui_f\data\map\MapControl\watertower_ca.paa"] ;
 		};
 		
 		if(count life_houses > 0) then 
