@@ -57,8 +57,8 @@ switch (_mode) do
 			case "detective": {_var = "licence_civ_detective"};
 			case "plutonium": {_var = "licence_civ_plutonium"};
 			case "cigarette": {_var = "licence_civ_cigarette"};
-			case "Team LSA": {_var = "licence_civ_LSA"}; // Team LSA
 			case "gt": {_var = "licence_civ_gt"};
+			case "lsa": {_var = "licence_civ_lsa"}; // Team LSA
 			default {_var = ""};
 		};
 	};
@@ -106,8 +106,8 @@ switch (_mode) do
 			case "licence_civ_detective": {_var = "detective"};
 			case "licence_civ_plutonium": {_var = "plutonium"};
 			case "licence_civ_cigarette": {_var = "cigarette"};
-			case "licence_civ_LSA": {_var = "Team LSA"}; // Team LSA
 			case "licence_civ_gt": {_var = "gt"};
+			case "licence_civ_lsa": {_var = "lsa"}; // Team LSA
 			default {_var = ""};
 		};
 	};

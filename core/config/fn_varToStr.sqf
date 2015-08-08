@@ -124,5 +124,5 @@ switch (_var) do
 	case "licence_civ_plutonium": {"Fonte du Plutonium"};
 	case "licence_civ_cigarette": {"Production de Cigarette"};
 	case "licence_civ_gt": {"- Global Trust -"};
-	case "licence_civ_LSA": {"Team LSA"};
+	case "licence_civ_lsa": {"Team LSA"};
 };

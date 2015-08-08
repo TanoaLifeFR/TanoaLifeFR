@@ -63,5 +63,5 @@ switch (_type) do
 	case "gang": {0}; // Gang
 	
 	//LICENCE TEAM
-	case "Team LSA": {0}; // Team LSA
+	case "lsa": {0}; // Team LSA
 };
