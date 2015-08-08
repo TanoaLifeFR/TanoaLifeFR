@@ -3897,8 +3897,8 @@ class Mission
 		};
 		class Item18
 		{
-			position[]={14031.65,25.928997,18743.328};
-			azimut=216.16933;
+			position[]={14041.847,25.193193,18762.994};
+			azimut=304.26422;
 			id=205;
 			side="EMPTY";
 			vehicle="Land_Atm_02_F";
@@ -25001,8 +25001,8 @@ class Mission
 		};
 		class Item1964
 		{
-			position[]={14031.902,25.776247,18746.797};
-			azimut=-55.555199;
+			position[]={14058.623,26.06801,18743.844};
+			azimut=123.59833;
 			id=2151;
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
@@ -25011,8 +25011,8 @@ class Mission
 		};
 		class Item1965
 		{
-			position[]={14056.45,26.242538,18736.037};
-			azimut=-234.57553;
+			position[]={14037.732,25.977388,18741.314};
+			azimut=-146.31424;
 			offsetY=1.1;
 			special="NONE";
 			id=2152;
@@ -25022,8 +25022,8 @@ class Mission
 		};
 		class Item1966
 		{
-			position[]={14052.868,26.348457,18731.059};
-			azimut=-234.57553;
+			position[]={14032.65,25.837061,18744.748};
+			azimut=-146.31424;
 			offsetY=1.1;
 			special="NONE";
 			id=2153;
@@ -25307,6 +25307,7 @@ class Mission
 		{
 			position[]={14034.39,25.357058,18760.037};
 			azimut=-58.8689;
+			offsetY=0.2;
 			id=2181;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
@@ -25315,7 +25316,7 @@ class Mission
 		};
 		class Item1995
 		{
-			position[]={14041.917,25.192961,18762.996};
+			position[]={14042.887,25.095058,18764.354};
 			azimut=-56.299847;
 			id=2182;
 			side="EMPTY";
@@ -25325,8 +25326,8 @@ class Mission
 		};
 		class Item1996
 		{
-			position[]={14052.319,26.364273,18730.318};
-			azimut=124.63713;
+			position[]={14031.895,25.839924,18745.264};
+			azimut=212.89841;
 			id=2183;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
@@ -25335,8 +25336,9 @@ class Mission
 		};
 		class Item1997
 		{
-			position[]={14032.841,25.780148,18746.125};
-			azimut=305;
+			position[]={14042.686,24.36548,18787.26};
+			azimut=386.686;
+			offsetY=0.5;
 			id=2184;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
@@ -25345,8 +25347,8 @@ class Mission
 		};
 		class Item1998
 		{
-			position[]={14057.365,26.242729,18736.291};
-			azimut=123.6136;
+			position[]={14038.018,26.013863,18740.402};
+			azimut=211.87488;
 			id=2185;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
@@ -63820,10 +63822,10 @@ class Mission
 		};
 		class Item25
 		{
-			position[]={14037.903,25.621716,18750.951};
+			position[]={14053.908,26.292587,18733.482};
 			name="civ_car_3";
 			type="Empty";
-			angle=126.40627;
+			angle=266.1134;
 		};
 		class Item26
 		{
@@ -64192,12 +64194,12 @@ class Mission
 		};
 		class Item71
 		{
-			position[]={14057.499,26.245901,18736.217};
+			position[]={14037.949,26.01877,18740.279};
 			name="license_shop_1";
 			text="Vendeur de Licenses";
 			type="c_unknown";
 			colorName="ColorBlue";
-			angle=-1.0185938;
+			angle=1.7337195;
 		};
 		class Item72
 		{
@@ -64299,21 +64301,21 @@ class Mission
 		};
 		class Item85
 		{
-			position[]={14032.724,25.780298,18746.121};
+			position[]={14042.664,24.361614,18787.369};
 			name="Gen_3_1_1_2";
 			text="Marché";
 			type="c_unknown";
 			colorName="ColorGreen";
-			angle=-0.71614969;
+			angle=-1.3262624;
 		};
 		class Item86
 		{
-			position[]={14052.412,26.368616,18730.166};
+			position[]={14031.743,25.849827,18745.17};
 			name="Gen_3_4_1";
 			text="Vendeur de Vêtements";
 			type="c_unknown";
 			colorName="ColorGreen";
-			angle=0.68105656;
+			angle=-0.88436204;
 		};
 		class Item87
 		{
@@ -64513,7 +64515,7 @@ class Mission
 		};
 		class Item111
 		{
-			position[]={14041.977,25.182667,18763.205};
+			position[]={14042.946,25.082283,18764.563};
 			name="Gen_4";
 			text="Magasin Général";
 			type="c_unknown";
@@ -64615,11 +64617,11 @@ class Mission
 		};
 		class Item124
 		{
-			position[]={14031.674,25.92466,18743.428};
+			position[]={14041.951,25.193003,18762.99};
 			name="atm_marker_2";
 			type="loc_Tourism";
 			colorName="ColorGreen";
-			angle=36.9492;
+			angle=125.04409;
 		};
 		class Item125
 		{
@@ -64815,10 +64817,10 @@ class Mission
 		};
 		class Item149
 		{
-			position[]={14038.591,25.63007,18750.463};
+			position[]={14053.057,26.289764,18733.416};
 			name="car_g_3";
 			type="Empty";
-			angle=485.44574;
+			angle=625.15271;
 		};
 		class Item150
 		{
