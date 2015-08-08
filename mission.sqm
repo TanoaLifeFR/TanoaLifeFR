@@ -3712,7 +3712,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=5599;
+		items=5672;
 		class Item0
 		{
 			position[]={8087.8345,77.665977,22619.818};
@@ -61818,299 +61818,299 @@ class Mission
 		class Item5432
 		{
 			position[]={15642.321,14.334255,17431.564};
-			azimut=553.30023;
+			azimut=553.29999;
 			id=5619;
 			side="EMPTY";
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
+			init="this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
 		};
 		class Item5433
 		{
 			position[]={15636.7,14.61523,17432.947};
-			azimut=553.30023;
+			azimut=553.29999;
 			id=5620;
 			side="EMPTY";
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
+			init="this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
 		};
 		class Item5434
 		{
 			position[]={15633.001,14.916184,17430.58};
-			azimut=463.08084;
+			azimut=463.08099;
 			id=5621;
 			side="EMPTY";
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
+			init="this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
 		};
 		class Item5435
 		{
 			position[]={15631.229,15.451978,17422.986};
-			azimut=463.08084;
+			azimut=463.08099;
 			id=5622;
 			side="EMPTY";
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
+			init="this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
 		};
 		class Item5436
 		{
 			position[]={15633.542,15.451001,17418.994};
-			azimut=375.58902;
+			azimut=375.58899;
 			id=5623;
 			side="EMPTY";
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
+			init="this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
 		};
 		class Item5437
 		{
 			position[]={15640.941,14.859177,17417.121};
-			azimut=373.26773;
+			azimut=373.26801;
 			id=5624;
 			side="EMPTY";
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
+			init="this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
 		};
 		class Item5438
 		{
 			position[]={15648.433,14.239153,17415.252};
-			azimut=374.25955;
+			azimut=374.26001;
 			id=5625;
 			side="EMPTY";
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
+			init="this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
 		};
 		class Item5439
 		{
 			position[]={15708.649,14.147378,17399.453};
-			azimut=371.95654;
+			azimut=371.957;
 			id=5626;
 			side="EMPTY";
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
+			init="this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
 		};
 		class Item5440
 		{
 			position[]={15716.25,14.394609,17397.824};
-			azimut=371.95654;
+			azimut=371.957;
 			id=5627;
 			side="EMPTY";
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
+			init="this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
 		};
 		class Item5441
 		{
 			position[]={15723.853,14.547277,17396.195};
-			azimut=371.95654;
+			azimut=371.957;
 			id=5628;
 			side="EMPTY";
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
+			init="this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
 		};
 		class Item5442
 		{
 			position[]={15727.502,14.57584,17398.678};
-			azimut=281.38019;
+			azimut=281.38;
 			id=5629;
 			side="EMPTY";
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
+			init="this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
 		};
 		class Item5443
 		{
 			position[]={15729.052,14.100215,17406.283};
-			azimut=281.38019;
+			azimut=281.38;
 			id=5630;
 			side="EMPTY";
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
+			init="this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
 		};
 		class Item5444
 		{
 			position[]={15726.649,14.004433,17410.004};
-			azimut=192.19566;
+			azimut=192.196;
 			id=5631;
 			side="EMPTY";
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
+			init="this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
 		};
 		class Item5445
 		{
 			position[]={15719.048,13.986382,17411.67};
-			azimut=192.19566;
+			azimut=192.196;
 			id=5632;
 			side="EMPTY";
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
+			init="this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
 		};
 		class Item5446
 		{
 			position[]={15730.119,15.177083,17517.002};
-			azimut=192.19566;
+			azimut=192.196;
 			id=5633;
 			side="EMPTY";
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
+			init="this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
 		};
 		class Item5447
 		{
 			position[]={15734.385,15.122871,17516.07};
-			azimut=192.19566;
+			azimut=192.196;
 			id=5634;
 			side="EMPTY";
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
+			init="this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
 		};
 		class Item5448
 		{
 			position[]={15736.712,15.040127,17512.389};
-			azimut=281.68723;
+			azimut=281.68701;
 			id=5635;
 			side="EMPTY";
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
+			init="this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
 		};
 		class Item5449
 		{
 			position[]={15734.464,15.12212,17516.07};
-			azimut=192.19566;
+			azimut=192.196;
 			id=5636;
 			side="EMPTY";
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
+			init="this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
 		};
 		class Item5450
 		{
 			position[]={15736.17,15.00326,17509.635};
-			azimut=281.68723;
+			azimut=281.68701;
 			id=5637;
 			side="EMPTY";
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
+			init="this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
 		};
 		class Item5451
 		{
 			position[]={15733.021,14.982846,17506.688};
-			azimut=552.05475;
+			azimut=552.05499;
 			id=5638;
 			side="EMPTY";
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this allowDamage false; This setpos [getpos this select 0, getpos this select 1, +7];";
+			init="this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""]; This setpos [getpos this select 0, getpos this select 1, +7];";
 		};
 		class Item5452
 		{
 			position[]={15674.694,15.539719,17532.492};
-			azimut=192.19566;
+			azimut=192.196;
 			id=5639;
 			side="EMPTY";
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
+			init="this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
 		};
 		class Item5453
 		{
 			position[]={15667.207,15.696015,17534.121};
-			azimut=192.19566;
+			azimut=192.196;
 			id=5640;
 			side="EMPTY";
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
+			init="this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
 		};
 		class Item5454
 		{
 			position[]={15659.72,15.769891,17535.75};
-			azimut=192.19566;
+			azimut=192.196;
 			id=5641;
 			side="EMPTY";
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
+			init="this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
 		};
 		class Item5455
 		{
 			position[]={15656.036,15.640659,17533.348};
-			azimut=102.32777;
+			azimut=102.328;
 			id=5642;
 			side="EMPTY";
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
+			init="this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
 		};
 		class Item5456
 		{
 			position[]={15654.409,15.485071,17525.861};
-			azimut=102.32777;
+			azimut=102.328;
 			id=5643;
 			side="EMPTY";
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
+			init="this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
 		};
 		class Item5457
 		{
 			position[]={15656.771,15.40171,17522.135};
-			azimut=12.746881;
+			azimut=12.7469;
 			id=5644;
 			side="EMPTY";
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
+			init="this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
 		};
 		class Item5458
 		{
 			position[]={15664.261,15.3271,17520.43};
-			azimut=12.746881;
+			azimut=12.7469;
 			id=5645;
 			side="EMPTY";
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
+			init="this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
 		};
 		class Item5459
 		{
@@ -63629,10 +63629,744 @@ class Mission
 			skill=0.60000002;
 			init="this allowDamage false; this allowDamage false; this setVectorUp [0,0,1];";
 		};
+		class Item5599
+		{
+			position[]={15652.826,15.504827,17523.402};
+			azimut=102.448;
+			id=5786;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5600
+		{
+			position[]={15653.481,15.508974,17526.379};
+			azimut=102.81381;
+			id=5787;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5601
+		{
+			position[]={15654.138,15.546115,17529.348};
+			azimut=102.448;
+			id=5788;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5602
+		{
+			position[]={15654.793,15.590296,17532.324};
+			azimut=102.81381;
+			id=5789;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5603
+		{
+			position[]={15655.451,15.716914,17535.254};
+			azimut=102.448;
+			id=5790;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5604
+		{
+			position[]={15655.718,15.744414,17536.408};
+			azimut=102.81381;
+			id=5791;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5605
+		{
+			position[]={15657.19,15.384345,17521.039};
+			azimut=12.733463;
+			id=5792;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5606
+		{
+			position[]={15654.222,15.459975,17521.699};
+			azimut=13.099278;
+			id=5793;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5607
+		{
+			position[]={15660.129,15.315011,17520.35};
+			azimut=192.79926;
+			id=5794;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5608
+		{
+			position[]={15663.1,15.31397,17519.678};
+			azimut=193.16507;
+			id=5795;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5609
+		{
+			position[]={15666.052,15.312593,17518.982};
+			azimut=13.099278;
+			id=5796;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5610
+		{
+			position[]={15669.04,15.30918,17518.283};
+			azimut=13.099278;
+			id=5797;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5611
+		{
+			position[]={15657.672,15.782442,17537.215};
+			azimut=13.099278;
+			id=5798;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5612
+		{
+			position[]={15660.656,15.779661,17536.52};
+			azimut=13.099278;
+			id=5799;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5613
+		{
+			position[]={15663.639,15.757955,17535.852};
+			azimut=11.606419;
+			id=5800;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5614
+		{
+			position[]={15666.639,15.736879,17535.234};
+			azimut=11.606419;
+			id=5801;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5615
+		{
+			position[]={15669.571,15.68049,17534.639};
+			azimut=12.415992;
+			id=5802;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5616
+		{
+			position[]={15672.573,15.606907,17533.986};
+			azimut=12.415992;
+			id=5803;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5617
+		{
+			position[]={15675.552,15.546326,17533.334};
+			azimut=13.099278;
+			id=5804;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5618
+		{
+			position[]={15678.536,15.54167,17532.639};
+			azimut=13.099278;
+			id=5805;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5619
+		{
+			position[]={15650.536,14.213072,17413.758};
+			azimut=-165.94017;
+			id=5806;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5620
+		{
+			position[]={15647.666,14.396037,17414.459};
+			azimut=-166.09615;
+			id=5807;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5621
+		{
+			position[]={15644.72,14.596706,17415.195};
+			azimut=-165.94017;
+			id=5808;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5622
+		{
+			position[]={15641.85,14.835689,17415.896};
+			azimut=-166.09615;
+			id=5809;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5623
+		{
+			position[]={15638.901,15.08261,17416.59};
+			azimut=-167.66467;
+			id=5810;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5624
+		{
+			position[]={15635.993,15.317161,17417.293};
+			azimut=-166.09615;
+			id=5811;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5625
+		{
+			position[]={15633.063,15.446155,17418.076};
+			azimut=-163.24799;
+			id=5812;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5626
+		{
+			position[]={15630.618,15.508443,17418.793};
+			azimut=-163.92604;
+			id=5813;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5627
+		{
+			position[]={15629.729,15.556421,17420.816};
+			azimut=-76.783493;
+			id=5814;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5628
+		{
+			position[]={15630.394,15.488943,17423.695};
+			azimut=-76.939468;
+			id=5815;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5629
+		{
+			position[]={15631.085,15.267135,17426.604};
+			azimut=-76.707527;
+			id=5816;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5630
+		{
+			position[]={15631.746,15.066179,17429.484};
+			azimut=-76.863503;
+			id=5817;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5631
+		{
+			position[]={15632.44,14.858916,17432.42};
+			azimut=-76.707527;
+			id=5818;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5632
+		{
+			position[]={15632.677,14.776587,17433.592};
+			azimut=-76.863503;
+			id=5819;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5633
+		{
+			position[]={15634.583,14.664043,17434.471};
+			azimut=13.299464;
+			id=5820;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5634
+		{
+			position[]={15637.471,14.595637,17433.799};
+			azimut=13.143489;
+			id=5821;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5635
+		{
+			position[]={15640.41,14.436743,17433.076};
+			azimut=13.83084;
+			id=5822;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5636
+		{
+			position[]={15643.289,14.315815,17432.393};
+			azimut=13.674865;
+			id=5823;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5637
+		{
+			position[]={15646.184,14.216348,17431.703};
+			azimut=13.144244;
+			id=5824;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5638
+		{
+			position[]={15705.107,14.088552,17399.213};
+			azimut=12.149672;
+			id=5825;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5639
+		{
+			position[]={15708.038,14.194314,17398.592};
+			azimut=11.993696;
+			id=5826;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5640
+		{
+			position[]={15710.896,14.312381,17398.02};
+			azimut=12.778472;
+			id=5827;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5641
+		{
+			position[]={15713.807,14.388742,17397.371};
+			azimut=12.622498;
+			id=5828;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5642
+		{
+			position[]={15716.67,14.442563,17396.729};
+			azimut=12.051694;
+			id=5829;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5643
+		{
+			position[]={15719.589,14.551817,17396.111};
+			azimut=11.895719;
+			id=5830;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5644
+		{
+			position[]={15722.526,14.574736,17395.473};
+			azimut=11.646819;
+			id=5831;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5645
+		{
+			position[]={15725.453,14.588711,17394.879};
+			azimut=11.490844;
+			id=5832;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5646
+		{
+			position[]={15728.58,14.56601,17399.012};
+			azimut=101.17577;
+			id=5833;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5647
+		{
+			position[]={15728.012,14.603559,17396.084};
+			azimut=101.0198;
+			id=5834;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5648
+		{
+			position[]={15729.752,14.208408,17404.863};
+			azimut=101.63979;
+			id=5835;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5649
+		{
+			position[]={15729.161,14.425374,17401.945};
+			azimut=101.48381;
+			id=5836;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5650
+		{
+			position[]={15730.566,14.072397,17408.818};
+			azimut=101.54276;
+			id=5837;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5651
+		{
+			position[]={15730.364,14.060447,17407.75};
+			azimut=101.38678;
+			id=5838;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5652
+		{
+			position[]={15726.424,14.606566,17394.686};
+			azimut=11.490844;
+			id=5839;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5653
+		{
+			position[]={15716.712,13.968328,17413.164};
+			azimut=12.594802;
+			id=5840;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5654
+		{
+			position[]={15719.699,13.999637,17412.484};
+			azimut=12.438827;
+			id=5841;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5655
+		{
+			position[]={15722.563,14.005962,17411.867};
+			azimut=12.166253;
+			id=5842;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5656
+		{
+			position[]={15725.562,14.009663,17411.223};
+			azimut=12.010278;
+			id=5843;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5657
+		{
+			position[]={15728.385,14.031973,17410.605};
+			azimut=12.594802;
+			id=5844;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5658
+		{
+			position[]={15729.122,14.048491,17410.432};
+			azimut=12.438827;
+			id=5845;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5659
+		{
+			position[]={15736.54,14.951479,17506.615};
+			azimut=101.48381;
+			id=5846;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5660
+		{
+			position[]={15737.122,14.991385,17509.449};
+			azimut=101.74412;
+			id=5847;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5661
+		{
+			position[]={15737.7,15.02856,17512.32};
+			azimut=101.48381;
+			id=5848;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5662
+		{
+			position[]={15738.282,15.067461,17515.154};
+			azimut=101.74412;
+			id=5849;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5663
+		{
+			position[]={15727.35,15.227071,17518.619};
+			azimut=191.93315;
+			id=5850;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5664
+		{
+			position[]={15730.181,15.192988,17518};
+			azimut=192.19345;
+			id=5851;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5665
+		{
+			position[]={15732.98,15.156939,17517.381};
+			azimut=192.34406;
+			id=5852;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5666
+		{
+			position[]={15735.799,15.11961,17516.758};
+			azimut=192.60437;
+			id=5853;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5667
+		{
+			position[]={15737.043,15.102334,17516.508};
+			azimut=191.84082;
+			id=5854;
+			side="EMPTY";
+			vehicle="Land_BagFence_Long_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item5668
+		{
+			position[]={16038.794,13.419624,16967.518};
+			azimut=594.1911;
+			id=5855;
+			side="EMPTY";
+			vehicle="Land_Mil_WiredFence_F";
+			leader=1;
+			skill=0.60000002;
+			init="this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
+		};
+		class Item5669
+		{
+			position[]={16032.868,13.553329,16934.549};
+			azimut=684.37982;
+			id=5856;
+			side="EMPTY";
+			vehicle="Land_Mil_WiredFence_F";
+			leader=1;
+			skill=0.60000002;
+			init="this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
+		};
+		class Item5670
+		{
+			position[]={15998.921,13.626455,16939.211};
+			azimut=594.1911;
+			id=5857;
+			side="EMPTY";
+			vehicle="Land_Mil_WiredFence_F";
+			leader=1;
+			skill=0.60000002;
+			init="this addAction[""Couper le grillage"",""scripts\fn_interactFence.sqf""];";
+		};
+		class Item5671
+		{
+			position[]={9121.3252,0,10433.564};
+			azimut=-176.62;
+			offsetY=1.3;
+			id=5858;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=0.60000002;
+			init="this enableSimulation false;  this allowDamage false;  this addAction[""Vendeur de Bateau LSA"",life_fnc_vehicleShopMenu,[""civ_ship"",civilian,""bat_spawn_LSA"",""civ"",""Billy's Boat Rentals & Ownership""]];  this addAction[""Garage bâteaux LSA"",  {   [[getPlayerUID player,playerSide,""Ship"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""civ_ship_3""; life_garage_type = ""Ship"";  },"""",0,false,false,"""",'playerSide == civilian'];  this addAction[""Ranger le véhicule dans le garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+		};
 	};
 	class Markers
 	{
-		items=423;
+		items=424;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -67437,6 +68171,13 @@ class Mission
 			position[]={9089.0801,17.916765,10521.859};
 			name="spawn_LSA";
 			type="Empty";
+		};
+		class Item423
+		{
+			position[]={9137.6357,0,10431.343};
+			name="bat_spawn_LSA";
+			type="Empty";
+			angle=174.10527;
 		};
 	};
 };
