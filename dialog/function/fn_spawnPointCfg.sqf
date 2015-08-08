@@ -75,6 +75,11 @@ switch (_side) do
             _return pushBack ["gt","Global Trust","\a3\ui_f\data\map\MapControl\watertower_ca.paa"] ;
 		};
 		
+		if(licence_civ_LSA) then
+		{
+            _return pushBack ["gt","Villa LSA","\a3\ui_f\data\map\MapControl\watertower_ca.paa"] ;
+		};
+		
 		if(count life_houses > 0) then 
 		{
 			{
