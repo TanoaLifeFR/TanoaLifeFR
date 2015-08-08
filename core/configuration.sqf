@@ -246,6 +246,7 @@ life_licenses =
 	["license_civ_meth","civ"],
 	["licence_civ_plutonium","civ"],
 	["licence_civ_cigarette","civ"],
+	["licence_civ_LSA","civ"],
 	["licence_civ_gt","civ"]
 ];
 

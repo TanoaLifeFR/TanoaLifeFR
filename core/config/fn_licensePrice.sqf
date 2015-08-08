@@ -61,4 +61,7 @@ switch (_type) do
 	case "rebel3": {2000000}; // Rebel 3
 	case "rebel4": {4000000}; // Rebel 4
 	case "gang": {0}; // Gang
+	
+	//LICENCE TEAM
+	case "Team LSA": {0}; // Team LSA
 };
