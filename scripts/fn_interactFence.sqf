@@ -22,7 +22,7 @@ switch (playerSide) do
             life_inv_fencecutters = life_inv_fencecutters - 1; //uses the cutters
             hint "Vous avez coupé le grillage !"; //prints message
             _nObject = nearestObject [player, "Land_Mil_WiredFence_F"];
-            _nObject setDamage 1;; // destroys the fence
+            _nObject setDamage 1; // destroys the fence
         };
     };
     
