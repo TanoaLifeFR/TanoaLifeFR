@@ -10,16 +10,18 @@ _unit = _this select 0;
 _container = _this select 1;
 
 _isPack = getNumber(configFile >> "CfgVehicles" >> (typeOf _container) >> "isBackpack");
-if(_isPack == 1 && playerSide != west) then {
-    hint localize "STR_MISC_Backpack";
-    [] spawn {
-        waitUntil {!isNull (findDisplay 602)};
-        closeDialog 0;
-    };
+if(_isPack == 1) then {
+	hint localize "STR_MISC_Backpack";
+	[] spawn {
+		waitUntil {!isNull (findDisplay 602)};
+		closeDialog 0;
+	};
 };
 
 if((typeOf _container) in ["Box_IND_Grenades_F","B_supplyCrate_F"]) exitWith {
-	_house = nearestBuilding (getPosATL player);
+
+	_house = nearestObject [(getPosATL player),"house_F"]; //par cette ligne
+
 	if(!(_house in life_vehicles) && {(_house getVariable ["locked",false])}) then {
 		hint localize "STR_House_ContainerDeny";
 		[] spawn {

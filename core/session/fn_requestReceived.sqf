@@ -68,7 +68,7 @@ switch(playerSide) do {
 		__CONST__(life_adaclevel,0);
 		life_houses = _this select 9;
 		{
-			_house = nearestBuilding (call compile format["%1", _x select 0]);
+			_house = nearestObject [(call compile format["%1", _x select 0]),"house_F"]; //par cette ligne
 			life_vehicles pushBack _house;
 		} foreach life_houses;
 		

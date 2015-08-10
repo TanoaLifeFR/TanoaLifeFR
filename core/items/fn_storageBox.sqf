@@ -7,7 +7,7 @@
 private["_boxType","_house","_positions","_containers","_pos","_houseCfg"];
 _boxType = _this select 0;
 
-_house = nearestBuilding (getPosATL player);
+_house = nearestObject [(getPosATL player),"house_F"]; //par cette ligne
 if(!(_house in life_vehicles)) exitWith {hint localize "STR_ISTR_Box_NotinHouse"};
 _containers = _house getVariable["containers",[]];
 _houseCfg = [(typeOf _house)] call life_fnc_houseConfig;

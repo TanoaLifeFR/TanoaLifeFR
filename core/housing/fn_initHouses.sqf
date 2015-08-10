@@ -8,7 +8,9 @@ if(count life_houses == 0) exitWith {}; //Nothing to do.
 
 {
 	_position = call compile format["%1",_x select 0];
-	_house = nearestBuilding _position;
+
+	_house = nearestObject [_position,"house_F"]; //par cette ligne
+
 	_house setVariable["uid",round(random 99999),true];
 	_houseName = getText(configFile >> "CfgVehicles" >> (typeOf _house) >> "displayName");
 	
