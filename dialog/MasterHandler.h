@@ -36,3 +36,4 @@
 #include "blackjack.hpp"
 #include "slot_machine.hpp"
 #include "smartphone.hpp"
+#include "agb.hpp"
