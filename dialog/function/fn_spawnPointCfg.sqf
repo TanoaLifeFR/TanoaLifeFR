@@ -36,7 +36,7 @@ switch (_side) do
 	
 	case civilian:
 	{	
-		if(license_civ_rebel) then 
+		if(license_civ_rebel || license_civ_rebel2 || license_civ_rebel3 || license_civ_rebel4) then 
 		{
             _return = 
 			[
