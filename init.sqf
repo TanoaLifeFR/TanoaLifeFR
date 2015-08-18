@@ -25,7 +25,7 @@ diag_log "Prix du Marché fait !";
 {
 diag_log format["Prix du marche mis a jour! %1", _this select 1];
 };
-     
+
 //Start server fsm
 [] execFSM "core\fsm\server.fsm";
 diag_log "Server FSM executed";

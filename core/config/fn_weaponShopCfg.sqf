@@ -22,30 +22,6 @@ if(_shop == "") exitWith {closeDialog 0}; //Bad shop type passed.
 
 switch(_shop) do
 {
-	case "cop_gav":
-	{
-		switch(true) do
-		{
-			case (playerSide != west): {"Vous n'etes pas un Gendarme pour utiliser ce vendeur!"};
-			default
-			{
-				["Armes Gendarme Apprenti Volontaire",
-					[
-						["hgun_P07_snds_F","Tazer",500],
-						["16Rnd_9x21_Mag",nil,50],
-						["muzzle_snds_L",nil,0],
-						["ItemRadio","Téléphone",100],
-						["Binocular",nil,150],
-						["ItemGPS",nil,100],
-						["ToolKit","Boite a outils",17000],
-						["Medikit",nil,1200],
-						["NVGoggles_OPFOR",nil,1500]
-					]
-				];
-			};
-		};
-	};
-	
 	case "cop_Gendarme":
 	{
 		switch(true) do
@@ -58,7 +34,8 @@ switch(_shop) do
 					[
 						["hgun_P07_snds_F","Tazer",500],
 						["16Rnd_9x21_Mag",nil,50],
-						["hgun_PDW2000_F",nil,2500],
+						["muzzle_snds_L",nil,0],
+						["SMG_02_F",nil,10000],
 						["30Rnd_9x21_Mag",nil,50],
 						["muzzle_snds_L",nil,0],
 						["optic_Hamr",nil,0],
@@ -91,9 +68,12 @@ switch(_shop) do
 			{
 				["Armes Brigadier",
 					[
-						["SMG_02_F",nil,10000],
-						["30Rnd_9x21_Mag",nil,50],
-						["muzzle_snds_L",nil,0],
+						["SMG_01_F",nil,10000],
+						["optic_Aco_smg",nil,500],
+						["optic_Holosight_smg",nil,500],
+						["muzzle_snds_acp",nil,500],
+						["30Rnd_45ACP_Mag_SMG_01",nil,250],
+						["30Rnd_45ACP_Mag_SMG_01_tracer_green",nil,250],
 						["optic_Arco",nil,0],
 						["optic_Hamr",nil,0],
 						["optic_Aco",nil,0],
