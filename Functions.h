@@ -168,11 +168,8 @@ class Life_Client_Core
 		//Class Vetement
 		class clothing_cop {};
 		class clothing_bruce {};
-		class clothing_reb {};
-		class clothing_reb2 {};
-		class clothing_reb3 {};
-		class clothing_reb4 {};
-		class clothing_mercenaire {};
+		class clothing_bri {};
+		class clothing_rebel {};
 		class clothing_dive {};
 		class clothing_kart {};
 		class clothing_detective {};
@@ -290,6 +287,7 @@ class Life_Client_Core
 		class demoChargeTimer {};
 		class civLoadout {};
 		class civInteractionMenu {};
+		class airSoft {};
 	};
 	
 	class Vehicle

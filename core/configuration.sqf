@@ -87,7 +87,7 @@ life_delivery_in_progress = false;
 life_action_in_use = false;
 life_thirst = 100;
 life_hunger = 100;
-__CONST__(life_paycheck_period,5); //cinq minutes
+__CONST__(life_paycheck_period,15); //cinq minutes
 life_cash = 0;
 __CONST__(life_impound_car,4000);
 __CONST__(life_impound_boat,2500);
@@ -104,10 +104,11 @@ switch (playerSide) do
 		life_atmcash = 50000; //Starting Bank Money
 		life_paycheck = 1800; //Paycheck Amount
 	};
+	
 	case civilian: 
 	{
 		life_atmcash = 50000; //Starting Bank Money
-		life_paycheck = 1700; //Paycheck Amount
+		life_paycheck = 500; //Paycheck Amount
 	};
 	
 	case independent: {
@@ -118,7 +119,7 @@ switch (playerSide) do
 	case east:
 	{
 		life_atmcash = 50000; //Starting Bank Money
-		life_paycheck = 2000; //Paycheck Amount
+		life_paycheck = 500; //Paycheck Amount
 	};
 };
 
@@ -208,7 +209,6 @@ life_inv_items =
 //Licenses [license var, civ/cop]
 life_licenses =
 [
-	["license_adac_car","adac"],
 	["license_cop_air","cop"],
 	["license_cop_swat","cop"],
 	["license_cop_cg","cop"],
@@ -222,10 +222,8 @@ life_licenses =
 	["license_civ_dive","civ"],
 	["license_civ_truck","civ"],
 	["license_civ_gun","civ"],
-	["license_civ_rebel","civ"],
-	["license_civ_rebel2","civ"],
-	["license_civ_rebel3","civ"],
-	["license_civ_rebel4","civ"],
+	["license_adac_rebel","adac"],
+	["license_civ_brigand","civ"],
 	["license_civ_coke","civ"],
 	["license_civ_diamond","civ"],
 	["license_civ_copper","civ"],
@@ -255,7 +253,7 @@ life_licenses =
 
 life_dp_points = ["dp_1","dp_2","dp_3","dp_4","dp_5","dp_6","dp_7","dp_8","dp_9","dp_10","dp_11","dp_12","dp_13","dp_14","dp_15","dp_15","dp_16","dp_17","dp_18","dp_19","dp_20","dp_21","dp_22","dp_23","dp_24","dp_25"];
 //[shortVar,reward]
-life_illegal_items = [["heroinu",1200],["heroinp",2500],["cocaine",1500],["cocainep",3500],["kitmeth",10000],["crystalmeth",15000],["crystalmethpur",20000],["feuilletabac",3000],["paquetcigarette",3000],["marijuana",3000],["blastingcharge",10000],["boltcutter",500]];
+life_illegal_items = [["heroinu",1200],["heroinp",2500],["coke",1500],["cokep",3500],["kitmeth",10000],["crystalmeth",15000],["crystalmethpur",20000],["feuilletabac",3000],["paquetcigarette",3000],["marijuana",3000],["blastingcharge",10000],["boltcutter",500]];
 
 
 /*

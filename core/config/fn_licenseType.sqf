@@ -16,7 +16,6 @@ switch (_mode) do
 	{
 		switch (_type) do
 		{
-			case "car": {_var = "license_adac_car"}; //Permis de conduire Adac
 			case "driver": {_var = "license_civ_driver"}; //Drivers License cost
 			case "boat": {_var = "license_civ_boat"}; //Boating license cost
 			case "pilot": {_var = "license_civ_air"}; //Pilot/air license cost
@@ -30,10 +29,8 @@ switch (_mode) do
 			case "marijuana": {_var = "license_civ_marijuana"}; //Marijuana processing license cost
 			case "medmarijuana": {_var = "license_civ_medmarijuana"}; //Medical Marijuana processing license cost
 			case "gang": {_var = "license_civ_gang"}; //Gang license cost
-			case "rebel": {_var = "license_civ_rebel"}; //Rebel License
-			case "rebel2": {_var = "license_civ_rebel2"}; //Rebel License 2
-			case "rebel3": {_var = "license_civ_rebel3"}; //Rebel License 3
-			case "rebel4": {_var = "license_civ_rebel4"}; //Rebel License 4
+			case "rebel": {_var = "license_adac_rebel"}; //Rebel License OPFOR
+			case "brigand": {_var = "license_civ_brigand"}; //Brigand Licence
 			case "truck":{_var = "license_civ_truck"}; //Truck License
 			case "diamond": {_var = "license_civ_diamond"};
 			case "salt": {_var = "license_civ_salt"};
@@ -67,7 +64,6 @@ switch (_mode) do
 	{
 		switch (_type) do
 		{
-			case "license_adac_car": {_var = "car"}; //Permis de conduire Adac
 			case "license_civ_driver": {_var = "driver"}; //Drivers License cost
 			case "license_civ_boat": {_var = "boat"}; //Boating license cost
 			case "license_civ_air": {_var = "pilot"}; //Pilot/air license cost
@@ -81,10 +77,8 @@ switch (_mode) do
 			case "license_civ_marijuana": {_var = "marijuana"}; //Marijuana processing license cost
 			case "license_civ_medmarijuana": {_var = "medmarijuana"}; //Medical Marijuana processing license cost
 			case "license_civ_gang": {_var = "gang"}; //Gang license cost
-			case "license_civ_rebel": {_var = "rebel"}; //Rebel License
-			case "license_civ_rebel2": {_var = "rebel2"}; //Rebel License
-			case "license_civ_rebel3": {_var = "rebel3"}; //Rebel License
-			case "license_civ_rebel4": {_var = "rebel4"}; //Rebel License
+			case "license_adac_rebel": {_var = "rebel"}; //Rebel License
+			case "license_civ_brigand": {_var = "brigand"}; //Rebel License
 			case "license_civ_truck":{_var = "truck"}; //Truck License
 			case "license_civ_diamond": {_var = "diamond"};
 			case "license_civ_salt": {_var = "salt"};

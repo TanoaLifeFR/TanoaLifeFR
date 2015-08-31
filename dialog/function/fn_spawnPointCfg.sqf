@@ -30,18 +30,21 @@ switch (_side) do
 	case east: 
 	{
 		_return = [
-			["spawn_merc1","Altis Protection","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			["reb_spawn_1","Poste Rebelle 1","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["reb_spawn_2","Poste Rebelle 2","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["reb_spawn_3","Poste Rebelle 3","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 		];
 	};
 	
 	case civilian:
 	{	
-		if(license_civ_rebel || license_civ_rebel2 || license_civ_rebel3 || license_civ_rebel4) then 
+		if(license_civ_brigand) then 
 		{
             _return = 
 			[
-				["reb_spawn_2","Avant-Poste","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-				["reb_spawn_4","Camp Rebelle","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+				["bri_spawn_1","Village Brigand","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+				["bri_spawn_2","Village Brigand","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+				["bri_spawn_3","Village Brigand","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 			];
 		}		
 		else

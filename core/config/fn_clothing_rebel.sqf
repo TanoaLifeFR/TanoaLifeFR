@@ -10,7 +10,7 @@ _filter = [_this,0,0,[0]] call BIS_fnc_param;
 //Classname, Custom Display name (use nil for Cfg->DisplayName, price
 
 //Shop Title Name
-ctrlSetText[3103,"Le Commerce du Rebelle 3"];
+ctrlSetText[3103,"Le Commerce du Brigand"];
 
 switch (_filter) do
 {
@@ -18,8 +18,18 @@ switch (_filter) do
 	case 0:
 	{
 		[
+			["U_IG_Guerilla1_1",nil,5000],
+			["U_O_OfficerUniform_ocamo",nil,7000],
+			["U_I_CombatUniform",nil,7000],
 			["U_O_CombatUniform_oucamo",nil,7000],
-			["U_I_OfficerUniform",nil,7000]
+			["U_I_OfficerUniform",nil,7000],
+			["U_I_GhillieSuit",nil,100000],
+			["U_B_FullGhillie_sard",nil,140000],
+			["U_O_FullGhillie_sard",nil,140000],
+			["U_I_FullGhillie_sard",nil,140000],
+			["U_B_FullGhillie_ard",nil,140000],
+			["U_O_FullGhillie_ard",nil,140000],
+			["U_I_FullGhillie_ard",nil,140000]
 		];
 	};
 	
@@ -73,11 +83,7 @@ switch (_filter) do
 			["V_Chestrig_rgr",nil,25000],
 			["V_Chestrig_blk",nil,25000],
 			["V_Chestrig_oli",nil,25000],
-			["V_TacVest_khk",nil,35000],
-			["V_TacVest_brn",nil,35000],
-			["V_TacVest_oli",nil,35000],
 			["V_HarnessOSpec_brn",nil,35000],
-			["V_HarnessOGL_gry","Veste Explosive",250000]
 		];
 	};
 	

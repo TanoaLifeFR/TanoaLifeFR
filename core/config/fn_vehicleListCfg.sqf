@@ -38,17 +38,6 @@ switch (_shop) do
 			};
 	};
 	
-	case "car_merc":
-	{
-		if(__GETC__(life_adaclevel) > 1) then
-		{
-		_return set[count _return,
-		["I_MRAP_03_F",60000]];
-		_return set[count _return,
-		["O_G_Offroad_01_F",10000]];
-		};
-	};
-	
 	case "journa_shop":
 	{
 		_return = 
@@ -265,7 +254,6 @@ switch (_shop) do
 		["O_G_Offroad_01_armed_F",1500000]];
 		_return set[count _return,
 		["O_MRAP_02_F",800000]];
-		_return set[count _return,
 		["B_Heli_Light_01_F",200000]];
 		_return set[count _return,
 		["B_Heli_Light_01_stripped_F",200000]];
@@ -273,29 +261,39 @@ switch (_shop) do
 		["C_Heli_Light_01_civil_F",250000]];
 		_return set[count _return,
 		["O_Heli_Light_02_unarmed_F",400000]];
+	};
+	
+	case "brigand_car":
+	{
 		_return set[count _return,
-		["B_Heli_Transport_01_camo_F",12000000]];
+		["O_G_Quadbike_01_F",500]];
+		_return set[count _return,
+		["O_G_Offroad_01_F",18000]];
+		_return set[count _return,
+		["C_SUV_01_F",35000]];
+		_return set[count _return,
+		["C_Hatchback_01_sport_F",100000]];
 	};
 	
 	case "cop_car":
 	{
+		if(__GETC__(life_coplevel) > 0) then
+		{
 		_return set[count _return,
 		["C_Hatchback_01_F",5000]];
-		if(__GETC__(life_coplevel) > 1) then
-		{
 		_return set[count _return,
 		["C_Offroad_01_F",10000]];
 		_return set[count _return,
 		["C_SUV_01_F",20000]];
 		};
 			
-			if(__GETC__(life_coplevel) > 4) then
+			if(__GETC__(life_coplevel) > 2) then
 			{
 			_return set[count _return,
 			["C_Hatchback_01_sport_F",80000]];
 			};
 		
-				if(__GETC__(life_coplevel) > 6) then
+				if(__GETC__(life_coplevel) > 4) then
 				{
 				_return set[count _return,
 				["B_MRAP_01_F",30000]];
@@ -314,7 +312,7 @@ switch (_shop) do
 	
 	case "cop_air":
 	{
-		if(__GETC__(life_coplevel) > 4) then
+		if(__GETC__(life_coplevel) > 0) then
 		{
 		_return pushBack
 		["B_Heli_Light_01_F",40000];
@@ -324,13 +322,13 @@ switch (_shop) do
 		["B_Heli_Light_01_stripped_F",60000];
 		};
 			
-		    if(__GETC__(life_coplevel) > 8) then
+		    if(__GETC__(life_coplevel) > 2) then
 			{
 			_return pushBack
 			["O_Heli_Light_02_unarmed_F",80000];
 			};
 
-				if(__GETC__(life_coplevel) > 11) then
+				if(__GETC__(life_coplevel) > 4) then
 				{
 				_return pushBack
 				["I_Heli_light_03_unarmed_F",100000];

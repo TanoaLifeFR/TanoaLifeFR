@@ -225,22 +225,6 @@ switch (_vehicle) do
 		];
 	};
 	
-	case "I_MRAP_03_F":
-	{
-		_ret = 
-		[
-			["textures\Mercenaire\strider_merc.jpg","cop"]
-		];
-	};
-	
-	case "I_MRAP_03_hmg_F":
-	{
-		_ret = 
-		[
-			["textures\Mercenaire\strider_merc.jpg","cop"]
-		];
-	};
-	
 	case "O_MRAP_02_F":
 	{
 		_ret = 

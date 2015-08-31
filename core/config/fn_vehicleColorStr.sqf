@@ -222,14 +222,6 @@ switch (_vehicle) do
 		};
 	};
 	
-	case "I_MRAP_03_F":
-	{
-		switch (_index) do
-		{
-			case 0: {_color = "Altis Protection";};
-		};
-	};
-	
 	case "O_MRAP_02_F":
 	{
 		switch (_index) do

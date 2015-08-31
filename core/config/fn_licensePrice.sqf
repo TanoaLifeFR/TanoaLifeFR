@@ -12,7 +12,6 @@ if(_type == "") exitWith {-1};
 switch (_type) do
 {
 	//LEGAL FLICS ETC
-	case "car": {0}; // Permis Conduire ADAC
 	case "cair": {0}; //Flic
 	case "swat": {0}; // Flic
 	case "merc": {0}; // Altis Protection
@@ -47,7 +46,7 @@ switch (_type) do
 	case "oil": {30000}; // Petrole
 	
 	//RESSOURCE ILLEGAL
-	case "heroin": {250000}; // Heroin 
+	case "heroin": {250000}; // Heroin
 	case "marijuana": {175000}; // Marijuana
 	case "medmarijuana": {200000}; // Mari Medical
 	case "cocaine": {300000};  // Cocaine
@@ -56,10 +55,7 @@ switch (_type) do
 	case "cigarette": {275000}; // Licence Cigarette
 	
 	//LICENCE ILLEGAL
-	case "rebel": {900000}; // Rebel 1
-	case "rebel2": {1500000}; // Rebel 2
-	case "rebel3": {2000000}; // Rebel 3
-	case "rebel4": {4000000}; // Rebel 4
+	case "brigand": {1000000}; // Brigand
 	case "gang": {0}; // Gang
 	
 	//LICENCE TEAM

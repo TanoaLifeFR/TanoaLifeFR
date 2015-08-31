@@ -48,6 +48,87 @@ if(!isNull _source) then {
 		};
 	};
 };
+//Airsoft
+if(!isNull _source) then {
+    if(_source != _unit) then {
+        _curMag = currentMagazine _source;
+        if (_zoneas distance player < _distas && _spawnas1 distance player > _dist && _spawnas2 distance player > _dist && _spawnas3 distance player > _dist && _magas distance player > _dist) then {
+            if (_curMag in ["30Rnd_556x45_Stanag_Tracer_Red"] && _projectile in ["B_556x45_Ball_Tracer_Red"]) then {
+                    private["_isVehicle","_isQuad"];
+                    _isVehicle = if(vehicle player != player) then {true} else {false};
+                    _isQuad = if(_isVehicle) then {if(typeOf(vehicle player) == "B_Quadbike_01_F") then {true} else {false}} else {false};
+                    _damage = false;
+                    
+                    if(_isVehicle || _isQuad) then {
+                        player action ["Eject",vehicle player];
+                        [_unit,_source] spawn life_fnc_airSoft;
+                    } else {
+                        [_unit,_source] spawn life_fnc_airSoft;
+                    }; 
+
+                /*if((side _source == west && playerSide != west)) then {
+                    private["_isVehicle","_isQuad"];
+                    _isVehicle = if(vehicle player != player) then {true} else {false};
+                    _isQuad = if(_isVehicle) then {if(typeOf(vehicle player) == "B_Quadbike_01_F") then {true} else {false}} else {false};
+                    _damage = false;    
+                    
+                    if(_isVehicle || _isQuad) then {
+                        player action ["Eject",vehicle player];
+                        [_unit,_source] spawn life_fnc_airSoft;
+                    } else {
+                        [_unit,_source] spawn life_fnc_airSoft;
+                    };
+                };
+                
+                if((side _source == civilian && playerSide != civilian)) then {
+                    private["_isVehicle","_isQuad"];
+                    _isVehicle = if(vehicle player != player) then {true} else {false};
+                    _isQuad = if(_isVehicle) then {if(typeOf(vehicle player) == "B_Quadbike_01_F") then {true} else {false}} else {false};
+                    _damage = false;    
+                    
+                    if(_isVehicle || _isQuad) then {
+                        player action ["Eject",vehicle player];
+                        [_unit,_source] spawn life_fnc_airSoft;
+                    } else {
+                        [_unit,_source] spawn life_fnc_airSoft;
+                    };
+                };
+                
+                if((side _source == civilian && playerSide != west)) then {
+                    private["_isVehicle","_isQuad"];
+                    _isVehicle = if(vehicle player != player) then {true} else {false};
+                    _isQuad = if(_isVehicle) then {if(typeOf(vehicle player) == "B_Quadbike_01_F") then {true} else {false}} else {false};
+                    _damage = false;    
+                    
+                    if(_isVehicle || _isQuad) then {
+                        player action ["Eject",vehicle player];
+                        [_unit,_source] spawn life_fnc_airSoft;
+                    } else {
+                        [_unit,_source] spawn life_fnc_airSoft;
+                    };
+                };
+                
+                if((side _source == west && playerSide != civilian)) then {
+                    private["_isVehicle","_isQuad"];
+                    _isVehicle = if(vehicle player != player) then {true} else {false};
+                    _isQuad = if(_isVehicle) then {if(typeOf(vehicle player) == "B_Quadbike_01_F") then {true} else {false}} else {false};
+                    _damage = false;    
+                    
+                    if(_isVehicle || _isQuad) then {
+                        player action ["Eject",vehicle player];
+                        [_unit,_source] spawn life_fnc_airSoft;
+                    } else {
+                        [_unit,_source] spawn life_fnc_airSoft;
+                    };
+                };
+                
+                if(side _source == west && playerSide == west) then {
+                    _damage = false;
+                };*/
+            };
+        };
+    };
+};
 
 [] call life_fnc_hudUpdate;
 _damage;

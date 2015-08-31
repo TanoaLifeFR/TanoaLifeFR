@@ -12,11 +12,8 @@ disableSerialization;
 
 //Cop / Civ Pre Check
 if((_this select 3) in ["bruce","dive","reb","donator","kart","detective","journaliste","depanneur"] && playerSide != civilian) exitWith {hint localize "STR_Shop_NotaCiv"; closeDialog 0;};
-if((_this select 3) == "reb" && !license_civ_rebel) exitWith {hint localize "STR_Shop_NotaReb"; closeDialog 0;};
-if((_this select 3) == "reb2" && !license_civ_rebel2) exitWith {hint localize "STR_Shop_NotaReb"; closeDialog 0;};
-if((_this select 3) == "reb3" && !license_civ_rebel3) exitWith {hint localize "STR_Shop_NotaReb"; closeDialog 0;};
-if((_this select 3) == "reb4" && !license_civ_rebel4) exitWith {hint localize "STR_Shop_NotaReb"; closeDialog 0;};
-if((_this select 3) in ["mercenaire"] && playerSide != east) exitWith {hint localize "STR_Shop_NotaCop"; closeDialog 0;};
+if((_this select 3) == "bri" && !license_civ_brigand) exitWith {hint localize "STR_Shop_NotaReb"; closeDialog 0;};
+if((_this select 3) in ["rebel"] && playerSide != east) exitWith {hint localize "STR_Shop_NotaCop"; closeDialog 0;};
 if((_this select 3) == "detective" && !licence_civ_detective) exitWith {hint localize "STR_Shop_NotaCiv"; closeDialog 0;};
 if((_this select 3) == "journaliste" && !licence_civ_journaliste) exitWith {hint localize "STR_Shop_NotaCiv"; closeDialog 0;};
 if((_this select 3) == "depanneur" && !licence_civ_depanneur) exitWith {hint localize "STR_Shop_NotaCiv"; closeDialog 0;};

@@ -2355,7 +2355,7 @@
 			<Original>For being arrested you have lost the following licenses if you own them\n\nFirearms License\nRebel License</Original>
 			<English>For being arrested you have lost the following licenses if you own them\n\nFirearms License\nRebel License</English>
 			<German>Bei der Verhaftung hast du folgende Lizenzen verloren\n\nWaffen Lizenz\nRebellen Lizenz</German>
-			<French>Après votre mise en prison, vous avez perdu les licences suivante si vous les aviez\n\nLicence d'armes\nLicence Rebelle 1 et 2, si vous vous forcez a mourir votre sanction sera la prison a vie !(Contactez un Admin)</French>
+			<French>Après votre mise en prison, vous avez perdu les licences suivante si vous les aviez\n\nLicence d'armes\nLicence Brigand, si vous vous forcez a mourir votre sanction sera la prison a vie !(Contactez un Admin)</French>
 			<Italian>A causa del tuo arresto hai perso le seguenti licenze, se le possedevi\n\nPorto d'armi\nLicenza Ribelle</Italian>
 			<Portuguese>Você perdeu as seguintes licenças por ter sido preso\n\nPorte de Armas\n\nTreinamento Rebelde</Portuguese>
 		</Key>
@@ -3839,6 +3839,14 @@
 			<English>Rebel Training</English>
 			<German>Rebellenausbildung</German>
 			<French>Entrainement rebelle</French>
+			<Italian>Licenza da Ribelle</Italian>
+			<Portuguese>Treinamento Rebelde</Portuguese>
+		</Key>
+		<Key ID="STR_License_brigand">
+			<Original>Rebel Training</Original>
+			<English>Rebel Training</English>
+			<German>Rebellenausbildung</German>
+			<French>Brigand</French>
 			<Italian>Licenza da Ribelle</Italian>
 			<Portuguese>Treinamento Rebelde</Portuguese>
 		</Key>
