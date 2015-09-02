@@ -108,7 +108,7 @@ switch(_shop) do
 		switch(true) do
 		{
 			case (playerSide != west): {"Vous n'etes pas un Gendarme pour utiliser ce vendeur!"};
-			case (__GETC__(life_coplevel) < 3): {"Vous n'etes pas Sergent Chef pour utiliser ce vendeur!"};
+			case (__GETC__(life_coplevel) < 3): {"Vous n'etes pas un Sergent Chef pour utiliser ce vendeur!"};
 			default
 			{
 				["Armes Sergent Chef",

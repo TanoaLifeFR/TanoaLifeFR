@@ -86,7 +86,6 @@ switch (_var) do
 	case "life_inv_fencecutters": {"Pince Coupante"};
 	
 	//License Block
-	case "license_adac_car": {"Permis de Conduire AP"};
 	case "license_civ_driver": {(localize "STR_License_Driver")};
 	case "license_civ_air": {(localize "STR_License_Pilot")};
 	case "license_civ_heroin": {(localize "STR_License_Heroin")};
@@ -97,7 +96,6 @@ switch (_var) do
 	case "license_cop_air": {(localize "STR_License_Pilot")};
 	case "license_cop_swat": {(localize "STR_License_Swat")};
 	case "license_cop_cg": {(localize "STR_License_CG")};
-	case "license_adac_rebel": {(localize "STR_License_Rebel")};
 	case "license_civ_brigand": {(localize "STR_License_brigand")};
 	case "license_civ_truck": {(localize "STR_License_Truck")};
 	case "license_civ_diamond": {(localize "STR_License_Diamond")};

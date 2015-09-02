@@ -12,7 +12,7 @@ switch (_shop) do
 {
 	case "market": {["Marché d'Altis",["water","rabbit","tbacon","apple","redgull","pickaxe","fuelF","peach","boltcutter","gpstracker","storagesmall","storagebig"]]};
 	case "rebel": {["Marché Rebelle",["water","rabbit","apple","zipties","fence_cut","redgull","tbacon","lockpick","pickaxe","fuelF","peach","gpstracker","boltcutter","blastingcharge"]]};
-	case "merc": {["Marché Altis Protection",["water","rabbit","apple","zipties","redgull","tbacon","lockpick","pickaxe","fuelF","peach","gpstracker","boltcutter","blastingcharge"]]};
+	case "bri": {["Marché Brigand",["water","rabbit","apple","zipties","fence_cut","redgull","tbacon","lockpick","pickaxe","fuelF","peach","gpstracker","boltcutter","blastingcharge"]]};
 	case "gang": {["Marché des Gangs", ["water","rabbit","apple","redgull","tbacon","lockpick","pickaxe","fuelF","peach","blastingcharge","boltcutter"]]};
 	case "wongs": {["Revendeur de Tortue",["turtlesoup","turtle"]]};
 	case "coffee": {["Club de Caffe",["coffee","donuts"]]};

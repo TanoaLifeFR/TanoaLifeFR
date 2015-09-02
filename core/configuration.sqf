@@ -222,7 +222,6 @@ life_licenses =
 	["license_civ_dive","civ"],
 	["license_civ_truck","civ"],
 	["license_civ_gun","civ"],
-	["license_adac_rebel","adac"],
 	["license_civ_brigand","civ"],
 	["license_civ_coke","civ"],
 	["license_civ_diamond","civ"],

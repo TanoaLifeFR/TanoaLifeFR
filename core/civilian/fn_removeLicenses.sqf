@@ -13,8 +13,8 @@ switch (_state) do
 	//Death while being wanted
 	case 0:
 	{
-		license_civ_rebel = true;
 		license_civ_driver = true;
+		license_civ_brigand = true;
 		license_civ_heroin = true;
 		license_civ_marijuana = true;
 		license_civ_coke = true;
@@ -24,8 +24,7 @@ switch (_state) do
 	case 1:
 	{
 		license_civ_gun = false;
-		license_civ_rebel = false;
-		license_civ_rebel2 = false;
+		license_civ_brigand = false;
 		license_civ_driver = false;
 	};
 	

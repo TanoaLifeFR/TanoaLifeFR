@@ -13,7 +13,7 @@ disableSerialization;
 		sleep 1;
 		_counter = _counter - 1;
 		((uiNamespace getVariable "osefStatusBar")displayCtrl 1000)ctrlSetText
-    format["Fps: %1 | Gendarme: %2 | Mercenaire : %3 | Civil: %4 | Securité: %5 | Argent: %6 | Banque: %7 | %8", round diag_fps, 
+    format["Fps: %1 | Gendarme: %2 | Rebelle : %3 | Civil: %4 | Securité: %5 | Argent: %6 | Banque: %7 | %8", round diag_fps, 
     west countSide playableUnits, east countSide playableUnits, civilian countSide playableUnits,
     independent countSide playableUnits,[life_cash] call life_fnc_numberText,[life_atmcash] call   
     life_fnc_numberText, mapGridPosition player, _counter];

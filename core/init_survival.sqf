@@ -67,13 +67,6 @@
 		waitUntil {backpack player == "B_Carryall_khk"};
 		};
 		
-		if(playerSide == east) then 
-		{
-		waitUntil {backpack player == "B_Carryall_oli"};
-		(backpackContainer player) setObjectTextureGlobal [0,"textures\Mercenaire\bp_merc.jpg"];
-		waitUntil {backpack player == "B_Carryall_oli"};
-		};
-		
 		if(playerSide == west) then 
 		{
 		waitUntil {backpack player == "B_Bergen_sgg"};
@@ -120,7 +113,7 @@
 	};
 };
 
-_illegalmarkers = ["chop_shop_1","Dealer_1","Dealer_1_4","weed_1","weed_area","Weed_p_1","cocaine_1","cocaine_area","Rebelop_1","heroin_1","heroin_area","heroin_p","chop_shop_3","turle_dealer","chop_shop_4","gang_area_1","gang_area_2","gang_area_3","turle_dealer_1","turle_dealer_2","Rebelop","Rebelop_2","chateaur","fonte_plutonium","plutonium_1","vendeur_plutonium","chop_shop_2","cocaine processing","Pharmacie","Traitement de la Meth 50%","tabac_1","tabac_2","tabac_3","tabac_4","traitement_tabac","bureau_tabac","Traitement de la Meth 75%","Traitement de la Meth 99%","Dealer de Meth","Dealer_1_3"];
+_illegalmarkers = ["chop_shop_1","Dealer_1","Dealer_1_4","weed_1","weed_area","Weed_p_1","Rebelop","Rebelop_2_1","Rebelop_2","regloefk","Rebelop_2_2_2","Rebelop_2_2","Rebelop_2_2_1","cocaine_1","cocaine_area","Rebelop_1","heroin_1","heroin_area","heroin_p","chop_shop_3","turle_dealer","chop_shop_4","gang_area_1","gang_area_2","gang_area_3","turle_dealer_1","turle_dealer_2","Rebelop","Rebelop_2","chateaur","fonte_plutonium","plutonium_1","vendeur_plutonium","chop_shop_2","cocaine processing","Pharmacie","Traitement de la Meth 50%","tabac_1","tabac_2","tabac_3","tabac_4","traitement_tabac","bureau_tabac","Traitement de la Meth 75%","Traitement de la Meth 99%","Dealer de Meth","Dealer_1_3"];
 
 if (playerSide == west) then {
 

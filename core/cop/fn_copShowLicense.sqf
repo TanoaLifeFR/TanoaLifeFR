@@ -23,7 +23,7 @@ _coplevel = call life_coplevel;
 
 switch ( _coplevel ) do
 {
-	case 1: { _rang = "Policier"; };
+	case 1: { _rang = "Gendarme"; };
 	case 2: { _rang = "Brigadier"; };
 	case 3: { _rang = "Brigadier Chef"; };
 	case 4: { _rang = "Sergent"; };
@@ -37,10 +37,9 @@ switch ( _coplevel ) do
 	case 12: { _rang = "Colonel"; };
 	case 13: { _rang = "Commandant"; };
 	case 14: { _rang = "Général"; };
-	case 15: { _rang = "Commissaire"; };
-	case 16: { _rang = "BAC"; };
-	case 17: { _rang = "GIGN"; };
-	default {_rank =  "GAV";};
+	case 15: { _rang = "Marechal"; };
+	case 16: { _rang = "GIGN"; };
+	default {_rank =  "Gendarme";};
 };
 
 _message = format["<img size='10' color='#FFFFFF' image='textures\Gendarme\insigne.paa'/><br/><br/><t size='2.5'>%1</t><br/><t size='1.8'>%2</t><br/><t size='1'>Gendarmerie</t>", name player, _rang];

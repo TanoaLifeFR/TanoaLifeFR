@@ -31,7 +31,7 @@ switch (_className) do
 	case "B_Truck_01_mover_F": {300};
 	case "B_Truck_01_transport_F": {350};
 	case "B_Truck_01_covered_F": {400};
-	case "B_Truck_01_box_F": {500};
+	case "B_Truck_01_box_F": {525};
 	case "B_MRAP_01_F": {65};
 	case "O_MRAP_02_F": {60};
 	case "I_MRAP_03_F": {58};

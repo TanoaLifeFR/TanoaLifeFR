@@ -22,10 +22,10 @@ switch(_craft) do
 				["arifle_sdar_F", ["life_inv_argentr",10,"life_inv_copperr",1]],
 				["30Rnd_556x45_Stanag", []],
 				
-				["arifle_TRG21_F", ["life_inv_argentr",20,"life_inv_copperr",2]],
+				["arifle_TRG21_F", ["life_inv_argentr",10,"life_inv_copperr",2]],
 				["30Rnd_556x45_Stanag", ["life_inv_ironr",10,"life_inv_sand",2]],
 				
-				["arifle_Katiba_F", ["life_inv_argentr",20,"life_inv_copperr",4]],
+				["arifle_Katiba_F", ["life_inv_argentr",10,"life_inv_copperr",4]],
 				["30Rnd_65x39_caseless_green", ["life_inv_copperr",10,"life_inv_sand",2]],
 				
 				["srifle_GM6_F", ["life_inv_goldbar",5]],

@@ -30,18 +30,6 @@
 		};
     };
 	
-	if (playerSide == west) then {
-        if ((uniform player) == "U_C_Commoner1_3")  then {
-            player setObjectTextureGlobal [0, "textures\Gendarme\Gendarmerie_Bac.jpg"]; //Tenue Rangemaster Gendarmerie
-		};
-    };
-	
-	if (playerSide == east) then {
-        if ((uniform player) == "U_B_SpecopsUniform_sgg")  then {
-            player setObjectTextureGlobal [0, "textures\Mercenaire\trellis_merc.jpg"]; //Tenue Altis Protection
-		};
-    };
-	
 	if (playerSide == independent) then {
         if ((uniform player) == "U_Rangemaster")  then {
             player setObjectTextureGlobal [0, "textures\medic_uniform.jpg"]; //Tenue Rangemaster Medic

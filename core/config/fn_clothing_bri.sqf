@@ -29,16 +29,8 @@ switch (_filter) do
 			["H_Booniehat_dgtl",nil,1500],
 			["H_Cap_brn_SPECOPS",nil,1500],
 			["H_Cap_blk_Raven",nil,1500],
-			["H_HelmetO_ocamo",nil,1500],
-			["H_MilCap_ocamo",nil,1500],
 			["H_HelmetO_oucamo",nil,1500],
 			["H_Bandanna_camo",nil,1500],
-			["H_Shemag_khk",nil,1500],
-			["H_Shemag_tan",nil,1500],
-			["H_Shemag_olive",nil,1500],
-			["H_Shemag_olive_hs",nil,1500],
-			["H_ShemagOpen_tan",nil,1500],
-			["H_Watchcap_sgg",nil,1500],
 			["H_Hat_camo",nil,1500]
 		];
 	};

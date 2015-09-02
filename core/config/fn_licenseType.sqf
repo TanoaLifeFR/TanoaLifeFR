@@ -29,7 +29,6 @@ switch (_mode) do
 			case "marijuana": {_var = "license_civ_marijuana"}; //Marijuana processing license cost
 			case "medmarijuana": {_var = "license_civ_medmarijuana"}; //Medical Marijuana processing license cost
 			case "gang": {_var = "license_civ_gang"}; //Gang license cost
-			case "rebel": {_var = "license_adac_rebel"}; //Rebel License OPFOR
 			case "brigand": {_var = "license_civ_brigand"}; //Brigand Licence
 			case "truck":{_var = "license_civ_truck"}; //Truck License
 			case "diamond": {_var = "license_civ_diamond"};
@@ -77,7 +76,6 @@ switch (_mode) do
 			case "license_civ_marijuana": {_var = "marijuana"}; //Marijuana processing license cost
 			case "license_civ_medmarijuana": {_var = "medmarijuana"}; //Medical Marijuana processing license cost
 			case "license_civ_gang": {_var = "gang"}; //Gang license cost
-			case "license_adac_rebel": {_var = "rebel"}; //Rebel License
 			case "license_civ_brigand": {_var = "brigand"}; //Rebel License
 			case "license_civ_truck":{_var = "truck"}; //Truck License
 			case "license_civ_diamond": {_var = "diamond"};

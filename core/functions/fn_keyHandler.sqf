@@ -181,10 +181,6 @@ switch (_code) do
 			{
 				player setObjectTextureGlobal [0, "textures\Gendarme\gign.jpg"];
 			};
-			if(playerSide == west && uniform player == "U_C_Commoner1_3") then
-			{
-				player setObjectTextureGlobal [0, "textures\Gendarme\Gendarmerie_Bac.jpg"];
-			};
 			if(playerSide == civilian && uniform player == "U_C_Poloshirt_blue") then
 			{
 				player setObjectTextureGlobal [0, "textures\Civil\BananaCreed.jpg"];
@@ -217,10 +213,6 @@ switch (_code) do
 			{
 				player setObjectTextureGlobal [0, "textures\Civil\PERS.jpg"];
 			};
-			if(playerSide == east && uniform player == "U_B_SpecopsUniform_sgg") then
-			{
-				player setObjectTextureGlobal [0, "textures\Mercenaire\trellis_merc.jpg"];
-			};
 			
 			//BACKPACK
 			if (Backpack player == "B_Bergen_sgg" && playerSide == west) then
@@ -234,10 +226,6 @@ switch (_code) do
 			if (Backpack player == "B_Bergen_mcamo" && playerSide == west) then
 			{
 				(unitbackpack player) setObjectTextureGlobal [0, "textures\Gendarme\backpack_gendarmerie_bleu.jpg"];
-			};
-			if (Backpack player == "B_Carryall_oli" && playerSide == east) then
-			{
-				(unitbackpack player) setObjectTextureGlobal [0, "textures\Mercenaire\bp_merc.jpg"];
 			};
 			if (Backpack player == "B_Carryall_khk" && playerSide == independent) then 
 			{
